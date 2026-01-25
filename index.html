@@ -3,73 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maya Representações | Soluções em Construção e Tintas</title>
+    <title>Maya Representações | Conectando Grandes Marcas</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Cores extraídas da logo */
+        .bg-maya-blue { background-color: #003358; }
+        .text-maya-blue { color: #003358; }
+        .border-maya-blue { border-color: #003358; }
+        .bg-maya-gold { background-color: #d4a04d; }
+        .text-maya-gold { color: #d4a04d; }
+        .hover-maya-gold:hover { color: #d4a04d; }
+    </style>
 </head>
 <body class="bg-gray-50 font-sans text-gray-900">
 
-    <nav class="bg-blue-900 text-white p-4 shadow-lg sticky top-0 z-50">
+    <nav class="bg-maya-blue text-white p-4 shadow-lg sticky top-0 z-50">
         <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-bold tracking-tighter">MAYA <span class="text-yellow-400">REPRESENTAÇÕES</span></h1>
-            <div class="hidden md:flex space-x-6">
-                <a href="#home" class="hover:text-yellow-400 transition">Início</a>
-                <a href="#marcas" class="hover:text-yellow-400 transition">Marcas</a>
-                <a href="#contato" class="hover:text-yellow-400 transition">Contato</a>
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-link text-maya-gold text-2xl rotate-45"></i>
+                <h1 class="text-2xl font-bold tracking-tighter">MAYA <span class="text-maya-gold">REPRESENTAÇÕES</span></h1>
             </div>
-            <a href="https://wa.me/SEUNUMERO" class="bg-green-500 hover:bg-green-600 px-4 py-2 rounded-full text-sm font-bold transition">
-                <i class="fab fa-whatsapp"></i> Falar Agora
+            <div class="hidden md:flex space-x-6">
+                <a href="#home" class="hover-maya-gold transition">Início</a>
+                <a href="#marcas" class="hover-maya-gold transition">Marcas</a>
+                <a href="#contato" class="hover-maya-gold transition">Contato</a>
+            </div>
+            <a href="https://wa.me/556182113585" target="_blank" class="bg-green-500 hover:bg-green-600 px-4 py-2 rounded-full text-sm font-bold transition flex items-center">
+                <i class="fab fa-whatsapp mr-2"></i> (61) 8211-3585
             </a>
         </div>
     </nav>
 
-    <header id="home" class="py-20 bg-blue-800 text-white text-center px-4">
-        <h2 class="text-4xl md:text-6xl font-extrabold mb-4">Excelência em Representação Comercial</h2>
-        <p class="text-xl text-blue-100 max-w-2xl mx-auto mb-8">Conectando as melhores marcas de Tintas e Materiais de Construção ao seu negócio em Águas Lindas e Região.</p>
-        <a href="#contato" class="bg-yellow-400 text-blue-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-300 transition uppercase shadow-xl">Solicitar Catálogo</a>
+    <header id="home" class="py-20 bg-maya-blue text-white text-center px-4 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+        <div class="relative z-10">
+            <h2 class="text-4xl md:text-6xl font-extrabold mb-4 uppercase">Conectando grandes marcas<br>aos melhores resultados</h2>
+            <p class="text-xl text-blue-100 max-w-2xl mx-auto mb-8">Especialista em Tintas e Materiais de Construção em Águas Lindas, DF e Entorno.</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="https://wa.me/556182113585" class="bg-maya-gold text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-600 transition uppercase shadow-xl">Solicitar Orçamento</a>
+                <a href="mailto:representacoesmayaa@gmail.com" class="bg-white text-maya-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition uppercase shadow-xl border border-maya-blue">Enviar E-mail</a>
+            </div>
+        </div>
     </header>
 
     <section class="py-16 container mx-auto px-4 grid md:grid-cols-3 gap-8">
-        <div class="bg-white p-8 rounded-xl shadow-md border-b-4 border-blue-900">
-            <i class="fas fa-truck-fast text-4xl text-blue-900 mb-4"></i>
-            <h3 class="text-xl font-bold mb-2">Giro Rápido</h3>
-            <p class="text-gray-600">Trabalhamos com produtos de alta demanda e logística eficiente para sua loja não parar.</p>
-        </div>
-        <div class="bg-white p-8 rounded-xl shadow-md border-b-4 border-yellow-400">
-            <i class="fas fa-chart-line text-4xl text-yellow-400 mb-4"></i>
-            <h3 class="text-xl font-bold mb-2">Alta Margem</h3>
-            <p class="text-gray-600">Produtos com excelente custo-benefício garantindo a rentabilidade do lojista.</p>
-        </div>
-        <div class="bg-white p-8 rounded-xl shadow-md border-b-4 border-blue-900">
-            <i class="fas fa-handshake text-4xl text-blue-900 mb-4"></i>
-            <h3 class="text-xl font-bold mb-2">Suporte Técnico</h3>
-            <p class="text-gray-600">Treinamento de equipe e suporte pós-venda para garantir a satisfação do cliente final.</p>
-        </div>
-    </section>
-
-    <section id="marcas" class="py-16 bg-gray-100">
-        <div class="container mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold mb-12 uppercase text-blue-900 underline decoration-yellow-400">Marcas Representadas</h2>
-            <div class="flex flex-wrap justify-center gap-10 grayscale opacity-70">
-                <div class="font-black text-3xl text-gray-400 italic">MARCA 01</div>
-                <div class="font-black text-3xl text-gray-400 italic">MARCA 02</div>
-                <div class="font-black text-3xl text-gray-400 italic">MARCA 03</div>
-            </div>
-        </div>
-    </section>
-
-    <footer id="contato" class="bg-gray-900 text-white py-12 px-4">
-        <div class="container mx-auto text-center">
-            <h2 class="text-2xl font-bold mb-4 italic text-yellow-400 italic">MAYA REPRESENTAÇÕES</h2>
-            <p class="mb-6 text-gray-400">Águas Lindas de Goiás | Distrito Federal e Entorno</p>
-            <div class="flex justify-center space-x-6 mb-8 text-2xl">
-                <a href="#" class="hover:text-yellow-400"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="hover:text-yellow-400"><i class="fab fa-facebook"></i></a>
-                <a href="#" class="hover:text-yellow-400"><i class="fab fa-linkedin"></i></a>
-            </div>
-            <p class="text-sm text-gray-500">© 2026 Maya Representações. Todos os direitos reservados.</p>
-        </div>
-    </footer>
-
-</body>
-</html>
