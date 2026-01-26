@@ -78,7 +78,7 @@
             </div>
             <div>
                 <h3 class="text-lg font-bold mb-4 uppercase border-b border-maya-gold pb-2 inline-block">Fale Conosco</h3>
-                <p class="mb-2"><i class="fab fa-whatsapp text-maya-gold mr-2"></i> (61) 98211-3585</p>
+                <p class="mb-2"><i class="fab fa-whatsapp text-maya-gold mr-2"></i> (61) 8211-3585</p>
                 <p class="mb-2"><i class="fas fa-envelope text-maya-gold mr-2"></i> representacoesmayaa@gmail.com</p>
                 <p class="mb-2"><i class="fas fa-map-marker-alt text-maya-gold mr-2"></i> DF e Entorno</p>
             </div>
