@@ -7,14 +7,46 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        .bg-maya-blue { background-color: #003358; }
-        .text-maya-blue { color: #003358; }
-        .bg-maya-gold { background-color: #d4a04d; }
-        .text-maya-gold { color: #d4a04d; }
-        .border-maya-gold { border-color: #d4a04d; }
-        .hover-maya-gold:hover { color: #d4a04d; }
-        html { scroll-behavior: smooth; }
-    </style>
+    /* ===== CORES OFICIAIS MAYA 2.0 ===== */
+    :root {
+        --maya-blue-dark: #003D5C;   /* Azul Escuro */
+        --maya-blue-medium: #0066A1; /* Azul Médio */
+        --maya-blue-light: #5BA3D0;  /* Azul Claro */
+        --maya-gold: #E89B3C;        /* Laranja/Ouro */
+        --maya-white: #FFFFFF;      /* Branco */
+        --maya-gray-light: #F5F5F5; /* Cinza Claro */
+        --maya-gray-medium: #B8B8B8; /* Cinza Médio */
+    }
+
+    /* ===== BACKGROUNDS ===== */
+    .bg-maya-dark { background-color: var(--maya-blue-dark); }
+    .bg-maya-medium { background-color: var(--maya-blue-medium); }
+    .bg-maya-light { background-color: var(--maya-blue-light); }
+    .bg-maya-gold { background-color: var(--maya-gold); }
+    .bg-maya-gray { background-color: var(--maya-gray-light); }
+
+    /* ===== TEXTOS ===== */
+    .text-maya-dark { color: var(--maya-blue-dark); }
+    .text-maya-medium { color: var(--maya-blue-medium); }
+    .text-maya-light { color: var(--maya-blue-light); }
+    .text-maya-gold { color: var(--maya-gold); }
+
+    /* ===== BORDAS ===== */
+    .border-maya-gold { border-color: var(--maya-gold); }
+    .border-maya-gray { border-color: var(--maya-gray-medium); }
+
+    /* ===== HOVER ===== */
+    .hover-maya-gold:hover { color: var(--maya-gold); }
+    .hover-maya-dark:hover { background-color: var(--maya-blue-dark); }
+    .hover-maya-medium:hover { background-color: var(--maya-blue-medium); }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+        background-color: var(--maya-gray-light);
+        color: var(--maya-blue-dark);
+    }
+</style>
 </head>
 <body class="bg-gray-50 font-sans text-gray-900">
 
@@ -99,5 +131,6 @@
 </body>
 
 </html>
+
 
 
